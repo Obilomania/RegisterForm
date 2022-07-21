@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+    <script src="/index.js" defer></script>
+    <title>Registration Form</title>
+</head>
+
+<body>
+    <div class="form-container">
+        <h3>Registration Form</h3>
+        <div class="imageform mb-3">
+            <div class="grid">
+                <div class="form-element">
+                    <label asp-for="ImageUrl" class="control-label" id="file-1-preview">
+                        <img src="https://bit.ly/3ubuq5o" alt="">
+                        <div>
+                        </div>
+                    </label>
+                </div>
+            </div>
+        </div>
+        <form action="">
+            <div class="content">
+                <label>First Name</label>
+                <input type="text">
+            </div>
+
+            <div class="content">
+                <label>Last Name</label>
+                <input type="text">
+            </div>
+
+            <div class="content">
+                <label>Userame</label>
+                <input type="text">
+            </div>
+
+            <div class="content">
+                <label>Profile Photo</label>
+                <input type="file" name="file" id="file-1">
+            </div>
+
+            <div class="content">
+                <label>Email</label>
+                <input type="email">
+            </div>
+
+            <div class="content">
+                <label>Password</label>
+                <input type="password" class="password"><i class="bi bi-eye"></i>
+            </div>
+
+            <div class="content">
+                <label>Confirm Password</label> <i class="bi bi-eye eye2"></i>
+                <input type="password" class="password2">
+            </div>
+
+            <div class="content">
+                <label>Gender</label>
+                <input type="text">
+            </div>
+
+            <div class="content">
+                <label>Date OF Birth</label>
+                <input type="date">
+            </div>
+
+            <div class="content">
+                <label>Registration Number</label>
+                <input type="text">
+            </div>
+
+            <div class="content">
+                <label>Faculty</label>
+                <input type="text">
+            </div>
+
+            <div class="content">
+                <label>Department</label>
+                <input type="text">
+            </div>
+
+            <button>Register</button>
+        </form>
+    </div>
+</body>
+
+</html>
